@@ -1,7 +1,14 @@
-/*!
- * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+/*
+ * main.css
+ *
+ * Author: Charles Li
+ *
+ * License: MIT
+ *
+ * Acknowledgements:
+ * Based on the Agency Bootstrap Theme by David Miller (licensed under the Apache License v2.0): http://startbootstrap.com/
+ * Robinhood-inspired navbar: https://www.robinhood.com/
+ *
  */
 
 body {
@@ -11,6 +18,9 @@ body {
 
 .text-muted {
     color: #777;
+      font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .text-primary {
@@ -42,7 +52,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: rgba(240, 230, 200, 1.0);
 }
 
 h1,
@@ -108,25 +118,26 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: rgba(240, 230, 200, 1.0);
+    background-color: rgba(240, 230, 200, 1.0);
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: rgba(240, 230, 200, 1.0);
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: rgb(100, 160, 100);
+    /*border-color: rgb(85, 150, 130);*/
+    border-color: #21ce99;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: rgb(100, 160, 100);
+    background-color: #21ce99;
 }
 
 .btn-xl:hover,
@@ -134,9 +145,11 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
-    color: #fff;
-    background-color: #fec503;
+    border-color: rgba(240, 230, 200, 1.0);;
+    color: white;
+    /*color: rgba(250, 255, 170, 1.0);*/
+    background-color: rgba(240, 230, 200, 1.0);
+    /*background-color: rgb(85, 150, 130);*/
 }
 
 .btn-xl:active,
@@ -160,12 +173,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: rgba(240, 230, 200, 1.0);
+    background-color: rgba(240, 230, 200, 1.0);
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: rgba(240, 230, 200, 1.0);
     background-color: #fff;
 }
 
@@ -189,7 +202,7 @@ fieldset[disabled] .btn-xl.active {
     /*font-style: italic;*/
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
 
-    color: #fed136;
+    color: rgba(240, 230, 200, 1.0);
 }
 
 .navbar-default .navbar-brand:hover,
@@ -204,18 +217,21 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
+    border-color: rgba(240, 230, 200, 1.0);
     /*background-color: #fed136;*/
 
 }
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
+    /*border-bottom: 3px solid #000;*/
+
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: rgba(240, 230, 200, 1.0);
+
 
 }
 
@@ -225,27 +241,40 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #000;
+    /*color: #0F1937;*/
+    color: #21ce99;
+    /*color: rgb(85, 150, 130);*/
+    /*color: rgb(70, 150, 150);*/
+
 }
+
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #000;
-    text-decoration: underline;
+    color: black;
+    /*border-bottom: 3px solid #000;*/
+
+    /*border-bottom: 3px solid #21ce99;*/
+    /*text-decoration: underline;*/
 }
+
+
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fed136;
+        /*color: rgba(240, 230, 200, 0.5);*/
+
+    /*color: #fed136;*/
     /*background-color: #fed136;*/
     text-decoration: underline;
+    /*color: rgb(70, 150, 150);*/
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fec503;
-    background-color: #fec503;
+    color: rgba(240, 230, 200, 1.0);
+    background-color: rgba(240, 230, 200, 1.0);
     text-decoration: underline;
 }
 
@@ -254,6 +283,7 @@ fieldset[disabled] .btn-xl.active {
         padding: 5px 0;
         border: 0;
         background-color: transparent;
+        /*background-color: rgba(50, 50, 50, 0.5);*/
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -269,21 +299,25 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-nav>.active>a {
+        /*color: rgb(85, 150, 130);*/
         border-radius: 3px;
     }
 
     .navbar-default.navbar-shrink {
         /*padding-top: 5px;*/
         padding-bottom: 20px;
-        background-color: #fff;
-        /*color: #fff;*/
+        /*background-color: rgba(240, 230, 200, 0.5);*/
+        background-color: rgba(255, 255, 255, 0.5);
+        /*color: #000;*/
     }
+
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
                 /*color: #fff;*/
 
     }
+
 }
 
 header {
@@ -299,18 +333,40 @@ header {
     -o-background-size: cover;
 }
 
+#schoolimage {
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 750px;
+    margin-top: -20px;
+    /*margin-bottom: 50px;*/
+}
+
+
+#activenow {
+    border-bottom: 3px solid #21ce99;
+    color: black;
+    /*border-bottom: 3px solid rgb(70, 150, 150);*/
+}
+
+.activenow a {
+    color: black;
+}
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 75px;
+
     /*font-family: Inconsolata;*/
 /*
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;*/
-    font-style: italic;
+    /*font-style: italic;*/
     line-height: 22px;
 }
 
@@ -321,27 +377,29 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 30px;
-    color: #fed136;
+    color: rgba(250, 255, 170, 1.0);
 
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 250px;
         padding-bottom: 200px;
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-
+        margin-bottom: 150px;
+      /*font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  /*font-size: 15px;*/
+  font-weight: 300;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
-        line-height: 40px;
+        line-height: 0px;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         text-transform: uppercase;
             font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
           /*font-family: Menlo;*/
@@ -350,7 +408,7 @@ header .intro-text .intro-heading {
 /*        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;*/
-        line-height: 75px;
+        line-height: 0px;
     }
 }
 
@@ -359,19 +417,37 @@ section {
 }
 
 section h2.section-heading {
+            font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            /*font-family: Menlo;*/
+            /*font-style: normal;*/
+            font-weight: 300;
     margin-top: 0;
     margin-bottom: 15px;
+    color: rgb(70, 150, 150);
+    /*background-color: rgba(70, 150, 150, 0.5);*/
+
     font-size: 40px;
+
 }
 
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+            /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 23px;
+        /*font-style: italic;*/
+/*    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
+    font-style: italic;*/
+    /*font-weight: 300;*/
 }
+
+#textrow {
+    margin-top: 50px;
+}
+
+
 
 @media(min-width:768px) {
     section {
@@ -382,6 +458,12 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+            font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-weight: 400;
+    /*color: #586e75;*/
+    /*background-color: rgba(240, 230, 200, 0.5);*/
+    background-color: rgba(70, 150, 150, 0.5);
+    /*color: rgba(250, 255, 170, 1.0);*/
 }
 
 #portfolio .portfolio-item {
@@ -401,7 +483,7 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(254,209,54,.9);
+    background: rgba(240, 230, 200, 0.5);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -672,6 +754,8 @@ section h3.section-subheading {
 }
 
 .team-member h4 {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
@@ -686,14 +770,17 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+    /*background-color: #fff;*/
+    /*background-image: url(../img/map-image.png);*/
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    /*background-color: #222;*/
+    /*color: #21ce99;*/
+            font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
 }
 
 section#contact .form-group {
@@ -714,7 +801,8 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+
+    border-color: rgba(240, 230, 200, 1.0);
     box-shadow: none;
 }
 
@@ -753,9 +841,12 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    color: rgb(70, 150, 150);
+
 }
 
 footer span.copyright {
+    /*color: rgba(240, 230, 200, 0.5);*/
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -763,12 +854,34 @@ footer span.copyright {
 }
 
 footer ul.quicklinks {
+
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
+
+footer ul.quicklinks a{
+    color: rgb(70, 150, 150);
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+
+footer ul.quicklinks a:hover,
+footer ul.quicklinks a:focus,
+footer ul.quicklinks a:active {
+    color: rgba(240, 230, 200, 1.0);
+    text-decoration: none;
+    /*color: rgba(250, 255, 170, 1.0);*/
+
+    /*color: rgb(70, 150, 150);*/
+}
+
 
 ul.social-buttons {
     margin-bottom: 0;
@@ -783,7 +896,9 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    /*background-color: rgba(240, 230, 200, 1.0);;*/
+    background-color: rgb(70, 150, 150);
+    /*background-color: #21ce99;;*/
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -792,7 +907,10 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: rgba(240, 230, 200, 1.0);
+    /*color: rgba(250, 255, 170, 1.0);*/
+
+    /*color: rgb(70, 150, 150);*/
 }
 
 .btn:focus,
@@ -880,12 +998,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: rgba(240, 230, 200, 1.0);
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: rgba(240, 230, 200, 1.0);
 }
 
 img::selection {
@@ -897,5 +1015,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: rgba(240, 230, 200, 1.0);
 }
+
+
