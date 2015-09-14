@@ -143,6 +143,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
+  margin-bottom: 400px;
   padding: 20px 40px;
   /*border-color: rgb(85, 150, 130);*/
   border-color: #21ce99;
@@ -376,11 +377,11 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
   header .intro-text {
-    padding-top: 250px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 0px;
   }
   header .intro-text .intro-lead-in {
-    margin-bottom: 150px;
+    margin-bottom: 225px;
     /*font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     /*font-size: 15px;*/
     font-weight: 300;
