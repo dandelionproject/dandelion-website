@@ -16,6 +16,17 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.popover {
+  width: 300px;
+}
+
 .text-muted {
   color: #777;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -309,7 +320,7 @@ header {
   text-align: center;
   color: #fff;
   background-attachment: scroll;
-  background-image: url(../img/header-bg.jpg);
+  background-image: url(../img/landingimage.jpg);
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
