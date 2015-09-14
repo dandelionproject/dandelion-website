@@ -27,6 +27,10 @@ body {
   color: #fed136;
 }
 
+#imglogod {
+  margin-right: 10px;
+}
+
 p {
   font-size: 14px;
   line-height: 1.75;
