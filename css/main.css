@@ -11,25 +11,25 @@
  *
  */
 
-
 .dandelionbig {
-      /*margin-bottom: 70px;*/
-padding: 25px;
-    /*text-transform: uppercase;*/
-    font-family: 'Arimo', sans-serif;
-    /*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-    /*font-family: 'Proxima Nova', sans-serif;*/
-    /*font-family: Menlo;*/
-    font-size: 65px;
-    font-weight: 500;
-    /*        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  /*margin-bottom: 70px;*/
+  padding: 25px;
+  /*text-transform: uppercase;*/
+  font-family: 'Arimo', sans-serif;
+  /*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  /*font-family: 'Proxima Nova', sans-serif;*/
+  /*font-family: Menlo;*/
+  font-size: 65px;
+  font-weight: 500;
+  /*        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;*/
-        color: rgb(85, 150, 130);
-        text-align: center;
-    line-height: 50px;
+  color: #FFB02C;
+  text-align: center;
+  line-height: 50px;
   margin-top: 85px;
-  background: rgba(240, 230, 200, 0.5);
+  background-color: rgb(247, 247, 247);
+  /*background: rgba(240, 230, 200, 0.5);*/
 }
 
 body {
@@ -59,7 +59,7 @@ input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-    outline: none;
+  outline: none;
 }
 
 .popover {
@@ -439,7 +439,6 @@ header .intro-text .intro-heading {
   }
   header .intro-text .intro-heading {
     margin-bottom: 70px;
-
     /*text-transform: uppercase;*/
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     /*font-family: 'Proxima Nova', sans-serif;*/
