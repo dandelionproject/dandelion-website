@@ -257,7 +257,8 @@ fieldset[disabled] .btn-xl.active {
   /*font-weight: 200;*/
   /*font-style: italic;*/
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-  color: rgba(240, 230, 200, 1.0);
+  /*color: rgba(240, 230, 200, 1.0);*/
+  /*color: rgba(247, 247, 247, 1.0);*/
 }
 
 .navbar-default .navbar-brand:hover,
@@ -293,7 +294,9 @@ fieldset[disabled] .btn-xl.active {
   font-weight: 400;
   letter-spacing: 1px;
   /*color: #0F1937;*/
-  color: rgb(245, 185, 85);
+  /*color: rgba(255, 255, 255, 0.5);*/
+  /*color: rgb(245, 185, 85);*/
+  color: #21ce99;
   /*color: rgb(85, 150, 130);*/
   /*color: rgb(70, 150, 150);*/
 }
@@ -331,8 +334,8 @@ fieldset[disabled] .btn-xl.active {
     /*color: black;*/
     /*background-color: white;*/
     /*background-color: transparent;*/
-    background-color: rgba(240, 230, 200, 0.5);
-    /*background-color: rgba(247, 247, 247, 0.95);*/
+    /*background-color: rgba(240, 230, 200, 0.5);*/
+    background-color: rgba(247, 247, 247, 0.5);
     /*background-color: rgba(255, 255, 255, 0.5);*/
     -webkit-transition: padding .3s;
     -moz-transition: padding .3s;
@@ -388,9 +391,9 @@ header {
 }
 
 #activenow {
-  border-bottom: 3px solid rgba(245, 185, 75, 1.0);
+  /*border-bottom: 3px solid #21ce99;*/
   color: black;
-  /*border-bottom: 3px solid rgb(70, 150, 150);*/
+  border-bottom: 3px solid #21ce99;
 }
 
 .activenow a {
