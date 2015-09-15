@@ -31,6 +31,7 @@ button:focus {
   color: #777;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
+  /*text-align: left;*/
   font-weight: 300;
 }
 
