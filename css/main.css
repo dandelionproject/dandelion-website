@@ -11,9 +11,47 @@
  *
  */
 
+
+.dandelionbig {
+      /*margin-bottom: 70px;*/
+padding: 25px;
+    /*text-transform: uppercase;*/
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-family: 'Proxima Nova', sans-serif;*/
+    /*font-family: Menlo;*/
+    font-size: 65px;
+    font-weight: 500;
+    /*        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 75px;
+        font-weight: 700;*/
+        color: rgb(85, 150, 130);
+        text-align: center;
+    line-height: 50px;
+  margin-top: 85px;
+  background: rgba(240, 230, 200, 0.5);
+}
+
 body {
+  background-color: rgba(247, 247, 247, 1.0);
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  background: transparent;
+}
+
+footer {
+  background: white;
+}
+
+#fullmission {
+  background-color: white;
+  color: rgba(240, 230, 200, 1.0);
 }
 
 input:focus,
@@ -144,7 +182,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-  margin-bottom: 400px;
+  /*margin-bottom: 400px;*/
   padding: 20px 40px;
   /*border-color: rgb(85, 150, 130);*/
   border-color: #21ce99;
@@ -244,7 +282,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: rgba(240, 230, 200, 1.0);
+  background-color: rgba(240, 230, 200, 0.5);
 }
 
 .navbar-default .nav li a {
@@ -254,7 +292,7 @@ fieldset[disabled] .btn-xl.active {
   font-weight: 400;
   letter-spacing: 1px;
   /*color: #0F1937;*/
-  color: #21ce99;
+  color: rgb(245, 185, 85);
   /*color: rgb(85, 150, 130);*/
   /*color: rgb(70, 150, 150);*/
 }
@@ -287,9 +325,14 @@ fieldset[disabled] .btn-xl.active {
 @media(min-width:768px) {
   .navbar-default {
     padding: 5px 0;
+    padding-bottom: 20px;
     border: 0;
-    background-color: transparent;
-    /*background-color: rgba(50, 50, 50, 0.5);*/
+    /*color: black;*/
+    /*background-color: white;*/
+    /*background-color: transparent;*/
+    background-color: rgba(240, 230, 200, 0.5);
+    /*background-color: rgba(247, 247, 247, 0.95);*/
+    /*background-color: rgba(255, 255, 255, 0.5);*/
     -webkit-transition: padding .3s;
     -moz-transition: padding .3s;
     transition: padding .3s;
@@ -309,7 +352,7 @@ fieldset[disabled] .btn-xl.active {
     /*padding-top: 5px;*/
     padding-bottom: 20px;
     /*background-color: rgba(240, 230, 200, 0.5);*/
-    background-color: rgba(255, 255, 255, 0.5);
+    /*background-color: rgba(255, 255, 255, 0.5);*/
     /*color: #000;*/
   }
   .navbar-default.navbar-shrink .navbar-brand {
@@ -322,6 +365,8 @@ header {
   text-align: center;
   color: #fff;
   background-attachment: scroll;
+  /*margin-top: 160px;*/
+  padding-top: 160px;
   background-image: url(../img/landingimage.JPG);
   background-position: center center;
   background-repeat: none;
@@ -342,7 +387,7 @@ header {
 }
 
 #activenow {
-  border-bottom: 3px solid #21ce99;
+  border-bottom: 3px solid rgba(245, 185, 75, 1.0);
   color: black;
   /*border-bottom: 3px solid rgb(70, 150, 150);*/
 }
