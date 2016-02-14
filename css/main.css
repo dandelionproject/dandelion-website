@@ -110,6 +110,11 @@ button:focus {
   width: 300px;
 }
 
+
+.popover-title {
+  text-align: center;
+}
+
 .text-muted {
   color: #777;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
