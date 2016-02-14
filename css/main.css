@@ -960,7 +960,7 @@ footer span.copyright {
   font-size: 12px;
   letter-spacing: 1px;
   color: black;
-  margin-left: 245px;
+  margin-left: 247px;
   line-height: 40px;
 }
 
@@ -1136,6 +1136,10 @@ img::selection {
 
 img::-moz-selection {
   background: 0 0;
+}
+
+#imglogod {
+  margin-left: -50px;
 }
 
 #shiftbrand {
