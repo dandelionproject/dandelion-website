@@ -35,7 +35,7 @@
 
 .whitebg {
   margin-top: 0;
-  padding-top: 200px;
+  padding-top: 150px;
   padding-bottom: 50px;
   background: white;
 }
@@ -43,7 +43,7 @@
 
 .greybg {
   margin-top: 0;
-  padding-top: 200px;
+  padding-top: 150px;
   padding-bottom: 50px;
   background: rgba(232, 232, 232, 0.5);
 }
@@ -353,8 +353,7 @@ fieldset[disabled] .btn-xl.active {
   /*color: rgb(70, 150, 150);*/
 }
 
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
+.navbar-default .nav li a:hover {
   outline: 0;
   /*color: black;*/
   color: rgb(245, 185, 85);
