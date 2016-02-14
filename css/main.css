@@ -574,6 +574,10 @@ section h3.section-subheading {
   color: black;
 }
 
+#gapthis {
+  margin-top: 50px;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
