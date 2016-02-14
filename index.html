@@ -16,6 +16,10 @@
   <link href="css/main.css" rel="stylesheet">
   <!-- Custom Fonts -->
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -35,7 +39,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand page-scroll" href="index.html"><img src="img/favicon48.png" alt="">
+        <a id="shiftbrand" class="navbar-brand page-scroll" href="#"><img src="img/favicon48.png" alt=""></a>
           <!-- <a class="navbar-brand page-scroll" href="index.html"><img src="img/dlogo48.gif" alt=""> -->
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -45,20 +49,20 @@
             <a href="#page-top"></a>
           </li>
           <li>
-            <a class="page-scroll" href="about.html">About Us</a>
+            <a id="shiftright" class="page-scroll" href="#about">About</a>
           </li>
           <li>
-            <a class="page-scroll" href="team.html">Team</a>
+            <a id="shiftright" class="page-scroll" href="#team">Team</a>
           </li>
           <li>
-            <a class="page-scroll" href="programs.html">Programs</a>
+            <a id="shiftright" class="page-scroll" href="#programs">Programs</a>
           </li>
           <li>
-            <a class="page-scroll" href="gallery.html">Gallery</a>
+            <a id="shiftright" class="page-scroll" href="#gallery">Gallery</a>
           </li>
-          <li>
-            <a class="page-scroll" href="contact.html">Contact</a>
-          </li>
+<!--           <li>
+            <a id="shiftright" class="page-scroll" href="contact.html">Contact</a>
+          </li> -->
           <!--                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li> -->
@@ -68,39 +72,476 @@
     </div>
     <!-- /.container-fluid -->
   </nav>
-  <div class="dandelionbig">
-    <div class="container">
-      <div class="col-md-12">THE DANDELION PROJECT</div>
-    </div>
-  </div>
   <!-- Header -->
-  <header>
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="bg"></div>
-    <div class="jumbotron">
-      <div class="container">
-        <a href="about.html" class="page-scroll btn btn-xl">Learn More</a>
-
-        <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+<!--   <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <img id="landingimage" src="../img/landingimage.JPG" alt="">
+        </div>
       </div>
     </div>
 
+  </header> -->
+    <!-- Services Section -->
+    <section id="landing">
+        <div class="container">
+            <div class="row dandelionbig">We are the Dandelion Project</div>
+            <div class="row smaller">Help us democratize education.</div>
+            <div class="row">
+                    <img id="schoolimage" src="img/landingimage.jpg" alt="">
+            </div>
 
-    <!--     <div class="container">
-      <div class="intro-text">
-        <div class="intro-heading">The Dandelion Project</div>
-        <div class="intro-lead-in"><span id="fullmission">We're on a <span id="mission">mission</span> to reduce <span id="mission">education inequality.</span></span></div>
-        <a href="about.html" class="page-scroll btn btn-xl">Learn More</a>
+            </section>
+    <!-- Services Section -->
+    <section id="about">
+        <div class="container greybg">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About Us</h2>
+                    <h3 class="section-subheading">Our mission, goals, and programs</h3>
+                </div>
+                    <img id="schoolimage" src="img/frontpage.jpg" alt="">
+            </div>
+
+            <div class="row text-center">
+                <div id="textrow" class="col-md-6">
+                    <h4 class="service-heading">Our Mission</h4>
+                    <p class="text-muted">The Dandelion Project is a student-run organization at Dartmouth College. We focus on bridging the gap in education and social inequality to help students from low-resource and rural schools in China.</p>
+                </div>
+                <div id="textrow" class="col-md-6">
+                    <h4 class="service-heading">Our Organization</h4>
+                    <p class="text-muted">The organization was founded by two Dartmouth students in 2012, and has since sent numerous student volunteers to the Dandelion Middle School to teach English classes, organize activities, and provide social and academic support for students. As of 2015, The Dandelion Project is in the process of refocusing to an enhanced model that emphasizes sustainability and experiential learning. </p>
+                </div>
+                </div>
+                <div class="row text-center">
+                    <div id="textrow" class="col-md-6">
+                        <h4 class="service-heading">Our Vision</h4>
+                        <p class="text-muted">We envision that all students, regardless of socioeconomic status or country of origin, should have access to high-quality education. More specifically, our organization is focused on bridging the gap in English education by providing resources to Chinese classrooms in impoverished districts.</p>
+                    </div>
+                    <div id="textrow" class="col-md-6">
+                        <h4 class="service-heading">Join Us</h4>
+                        <p class="text-muted">If you are interested in joining the team to help us make this vision a reality, please <a href="contact.html">contact us</a>.</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+  <section id="programs">
+    <div class="container whitebg">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Programs</h2>
+          <h3 class="section-subheading">Learn about our various project teams</h3>
+
+          <!-- <h3 class="section-subheading text-muted">Snapshots of our time with Dandelion over the years</h3> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+            <!-- <div class="portfolio-hover"> -->
+              <div class="portfolio-hover-content">
+
+              </div>
+            <!-- </div> -->
+            <!-- <img src="img/portfolio/video.png" class="img-responsive" alt=""> -->
+          </a>
+          <div class="portfolio-caption">
+            <h4>Education and Volunteer Team </h4>
+            <p class="text-muted">Maintains close communications with Tsinghua’s Office of Educational Poverty Alleviation, our partner organization. Sends educational materials to a network of 30 rural schools and receives product and implementation feedback.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+
+              </div>
+            </div>
+            <!-- <img src="img/portfolio/flashrpg.png" class="img-responsive" alt=""> -->
+          </a>
+          <div class="portfolio-caption">
+            <h4>Video Team</h4>
+            <p class="text-muted">Designs and films instructional English videos to advance children’s listening and pronunciation skills. Created over 50 videos over the past two years, currently utilized by four classrooms in Beijing.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+
+              </div>
+            </div>
+            <!-- <img src="img/portfolio/flashrpg.png" class="img-responsive" alt=""> -->
+          </a>
+          <div class="portfolio-caption">
+            <h4>Tech Team</h4>
+            <p class="text-muted">Develops flashcard applications, virtual games, and web apps to help students improve their vocabulary and grammar. Utilizes coding and design skills to transform English learning into a fun and interactive process for children in China.
+            </p>
+          </div>
+        </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+
+              </div>
+            </div>
+            <!-- <img src="img/portfolio/flashrpg.png" class="img-responsive" alt=""> -->
+          </a>
+          <div class="portfolio-caption">
+            <h4>Culture and Crafts Team</h4>
+            <p class="text-muted">Brainstorms creative craft ideas to supplement English learning in Chinese classrooms. Creates instructions for each activity and sends supply kits to teachers. Crafts are intended to help children improve their language fluency while inspiring an interest in English learning and American culture. Teachers in China have been adopting our craft activities as an innovative addendum to rote memorization.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+
+              </div>
+            </div>
+            <!-- <img src="img/portfolio/startup-framework-preview.png" class="img-responsive" alt=""> -->
+          </a>
+          <div class="portfolio-caption">
+            <h4>Internal Operations Team</h4>
+            <p class="text-muted">Maintains structural efficiency and leads weekly team meetings with all members. Organizes guest speakers from the college who are experts in social entrepreneurship and experiential learning.
+
+            </p>
+          </div>
+        </div>
       </div>
     </div>
- -->
-  </header>
+  </section>
+  <section id="team">
+    <div class="container greybg">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Our Team</h2>
+          <h3 class="section-subheading">Meet our team of passionate volunteers</h3>
+        </div>
+      </div>
+      <div class="row">
+        <!--         <div class="col-sm-2">
+          <div class="team-member">
+            <img src="img/team/brendan.png" class="img-responsive img-circle" alt="">
+            <h4>Brendan</h4>
+            <p class="text-muted">Founder</p>
+            <ul class="list-inline social-buttons">
+
+            </ul>
+          </div>
+        </div> -->
+        <div class="col-sm-2">
+          <div class="team-member">
+
+
+            <input type="image" src="img/team/amyyang.JPG" class="img-responsive img-circle" alt="" id="popover1" rel="popover" data-placement="bottom" data-placement="bottom" data-content="Amy has worked with the Dandelion Project since 13F. Originally a member of the video team, her dedication and hard work made her the perfect candidate to take over for Mary Peng, the co-founder of the Dandelion Project. Amy’s newest project is facilitating Dandelion Project’s relationship with Tsinghua University, a major pillar of the Paganucci Report." title="Amy Yang">
+            <ul class="list-inline social-buttons">
+              <p class="text-muted"></p>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="team-member">
+
+
+            <input type="image" src="img/team/angelacai.JPG" class="img-responsive img-circle" alt="" id="popover2" rel="popover" data-placement="bottom" data-content="In progress." title="Angela Cai">
+            <ul class="list-inline social-buttons">
+              <p class="text-muted"></p>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="team-member">
+
+
+            <input type="image" src="img/team/annieyang.JPG" class="img-responsive img-circle" alt="" id="popover3" rel="popover" data-placement="bottom" data-content="In progress." title="Annie Yang">
+            <ul class="list-inline social-buttons">
+              <p class="text-muted"></p>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="team-member">
+
+
+            <input type="image" src="img/team/brendanwang.png" class="img-responsive img-circle" alt="" id="popover4" rel="popover" data-placement="bottom" data-content="Brendan first visited the Dandelion Middle School in 2008 with the Hope Scholarship Fund. Inspired by the Dandelion students’ work ethic and compassion, Brendan was determined to continue his relationship with the rural children. He joined forces with Mary Peng to co-found the Dandelion Project at Dartmouth. He and Mary have collaborated to pioneer a 2-week volunteer program in China for Dartmouth students. Brendan graduated in the spring of 2015." title="Brendan Wang">
+            <ul class="list-inline social-buttons">
+              <p class="text-muted"></p>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="team-member">
+
+
+            <input type="image" src="img/team/campbellfield.jpg.JPG" class="img-responsive img-circle" alt="" id="popover5" rel="popover" data-placement="bottom" data-content="In progress." title="Campbell Field">
+            <ul class="list-inline social-buttons">
+              <p class="text-muted"></p>
+
+            </ul>
+          </div>
+        </div>
+
+                <div class="col-sm-2">
+          <div class="team-member">
+
+
+            <input type="image" src="img/team/charlesli.JPG" class="img-responsive img-circle" alt="" id="popover13" rel="popover" data-placement="bottom" data-content="Charlie Li is the computer scientist behind the Dandelion Project. He is working on developing an English immersion computer game modeled after the Pokémon game. Charlie also manages the Dandelion Project’s website, ensuring content is up-to-date and presentable." title="Charlie Li">
+            <ul class="list-inline social-buttons">
+              <p class="text-muted"></p>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="team-member">
+
+
+            <input type="image" src="img/team/kelleylin.JPG" class="img-responsive img-circle" alt="" id="popover6" rel="popover" data-placement="bottom" data-content="Kelley takes care of many of the Dandelion Projects internal workings, including booking meeting rooms, sending announcements and scheduling socials. Kelly also manages the Dandelion Project’s Facebook page.  Her work is integral in creating a sense of community among the members of the Dandelion Project." title="Kelley Lin">
+            <ul class="list-inline social-buttons">
+              <p class="text-muted"></p>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="team-member">
+
+
+            <input type="image" src="img/team/kezhao.JPG" class="img-responsive img-circle" alt="" id="popover7" rel="popover" data-placement="bottom" data-content="Ke uses her skills in graphic design to produce the physical materials the Dandelion Project uses to promote itself. During 15X, she designed the winning tank top design on behalf of the Dandelion Project." title="Ke Zhao">
+            <ul class="list-inline social-buttons">
+              <p class="text-muted"></p>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="team-member">
+
+
+            <input type="image" src="img/team/kieransim.JPG" class="img-responsive img-circle" alt="" id="popover8" rel="popover" data-placement="bottom" data-content="Kieran joined the Dandelion Project his freshmen fall as a member of the video team. During the summer following freshmen year, Kieran worked at the Dandelion Middle School as a Tucker Fellow, giving him the experience to take the place of Brendan Wang as co-President. Kieran returned to the Dandelion School as a Paganucci fellow, adding his inside knowledge to the final Paganucci Report." title="Kieran Sim">
+            <ul class="list-inline social-buttons">
+              <p class="text-muted"></p>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="team-member">
+
+
+            <input type="image" src="img/team/liamfeeney.JPG" class="img-responsive img-circle" alt="" id="popover9" rel="popover" data-placement="bottom" data-content="As a director of the video team, Liam facilitates filming and editing. He also runs the Dandelion Project’s Twitter account. He and Yichen assist Amy with solidifying the Dandelion Project’s relationship with Tsinghua University." title="Liam Feeney">
+            <ul class="list-inline social-buttons">
+              <p class="text-muted"></p>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="team-member">
+
+
+            <input type="image" src="img/team/marypeng.JPG" class="img-responsive img-circle" alt="" id="popover10" rel="popover" data-placement="bottom" data-content="As a co-founder of the Dandelion Project at Dartmouth, Mary worked in collaboration with Brendan Wang to obtain COSO recognition for the club in 2013. Mary also played a crucial role in securing funding and support from the Tucker Center, the Rockefeller Center, and the Dartmouth Investment and Philanthropy Program. Mary graduated in the spring of 2015." title="Mary Peng">
+            <ul class="list-inline social-buttons">
+              <p class="text-muted"></p>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="team-member">
+
+
+            <input type="image" src="img/team/vivianlee.JPG" class="img-responsive img-circle" alt="" id="popover11" rel="popover" data-placement="bottom" data-content="In progress." title="Vivian Lee">
+            <ul class="list-inline social-buttons">
+              <p class="text-muted"></p>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="team-member">
+
+
+            <input type="image" src="img/team/yichenzhang.JPG" class="img-responsive img-circle" alt="" id="popover12" rel="popover" data-placement="bottom" data-content="Yichen brought his digital media expertise to the Dandelion Project in 14S. He works on editing and filming the Dandelion Project’s main product: educational videos. Yichen also designed the new logo." title="Yichen Zhang">
+            <ul class="list-inline social-buttons">
+              <p class="text-muted"></p>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+      <section id="gallery">
+        <div class="container whitebg">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Gallery</h2>
+                    <h3 class="section-subheading">Snapshots of our time with Dandelion over the years</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pic9.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                    </div>
+                </div>
+
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pic8.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                    </div>
+                </div>
+
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pic7.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                    </div>
+                </div>
+
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pic6.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                    </div>
+                </div>
+
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pic5.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                    </div>
+                </div>
+
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pic4.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                    </div>
+                </div>
+
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pic3.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                    </div>
+                </div>
+
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pic2.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                    </div>
+                </div>
+
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pic1.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-4">
           <span id="imglogod"><img src="img/dlogosmall.jpg" alt=""></span>
-          <span class="copyright">The Dandelion Project at Dartmouth</span>
+          <span id="copyrightnohover">The Dandelion Project at Dartmouth</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
@@ -116,7 +557,7 @@
           <ul class="list-inline quicklinks">
             <li><!-- githubgithub -->
             </li>
-            <li><a href="https://gist.github.com/anonymous/b479cfc0a2ece0c23390">Terms of Use</a>
+            <li><a id="termsofuse" href="https://gist.github.com/anonymous/b479cfc0a2ece0c23390">Terms of Use</a>
             </li>
           </ul>
         </div>

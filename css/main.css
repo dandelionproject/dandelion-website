@@ -6,42 +6,85 @@
  * License: MIT
  *
  * Acknowledgements:
- * Based on the Agency Bootstrap Theme by David Miller (licensed under the Apache License v2.0): http://startbootstrap.com/
- * Robinhood-inspired navbar: https://www.robinhood.com/
+ * Based on the Agency Bootstrap Theme by David Miller (licensed under the Apache License v2.0):
+ *            http://startbootstrap.com/
  *
  */
 
 .dandelionbig {
   /*margin-bottom: 70px;*/
-  padding: 25px;
   /*text-transform: uppercase;*/
-  font-family: 'Arimo', sans-serif;
-  /*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  /*font-family: 'Proxima Nova', sans-serif;*/
+  /*font-family: 'Arimo', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
   /*font-family: Menlo;*/
-  font-size: 65px;
-  font-weight: 500;
+  font-size: 50px;
+  font-weight: 300;
   /*        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;*/
   color: #FFB02C;
-  text-align: center;
+  text-align: left;
   line-height: 50px;
-  margin-top: 85px;
-  background-color: rgb(247, 247, 247);
-  /*background: rgba(240, 230, 200, 0.5);*/
+  background-color: rgb(255, 255, 255);
+  /*background: rgba(240, 240, 240, 0.5);*/
+}
+
+.dandelion-orange {
+  color: #FFB02C;
+}
+
+.whitebg {
+  margin-top: 0;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  background: white;
+}
+
+
+.greybg {
+  margin-top: 0;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  background: rgba(232, 232, 232, 0.5);
+}
+
+#dandelion-orange {
+  background-color: #FFB02C;
+  border-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
+.smaller {
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #21ce99;
+  color: black;
 }
 
 body {
-  background-color: rgba(247, 247, 247, 1.0);
+  background-color: rgba(255, 255, 255, 1.0);
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+
+/*.encompassing {
+    background-color: rgba(255, 255, 255, 1.0);
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+*/
+
 .jumbotron {
   margin-bottom: 0px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 300px;
+  padding-bottom: 300px;
   position: relative;
   background: transparent;
 }
@@ -72,15 +115,13 @@ button:focus {
   font-size: 18px;
   /*text-align: left;*/
   font-weight: 300;
+  text-align: justify;
 }
 
 .text-primary {
   color: #fed136;
 }
 
-#imglogod {
-  margin-right: 10px;
-}
 
 p {
   font-size: 14px;
@@ -100,7 +141,7 @@ a.active {
 }
 
 a {
-  color: #21ce99;
+  color: #FFB02C;
 }
 
 a:hover,
@@ -117,7 +158,8 @@ h4,
 h5,
 h6 {
   text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+     font-family: 'Open Sans', sans-serif; 
   font-weight: 700;
 }
 
@@ -136,7 +178,8 @@ h6 {
 .btn-primary {
   border-color: #fed136;
   text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+      font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   color: #fff;
   background-color: #fed136;
@@ -189,7 +232,8 @@ fieldset[disabled] .btn-primary.active {
   border-color: #21ce99;
   border-radius: 3px;
   text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+      font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #fff;
@@ -256,9 +300,16 @@ fieldset[disabled] .btn-xl.active {
   /*font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   /*font-weight: 200;*/
   /*font-style: italic;*/
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
   /*color: rgba(240, 230, 200, 1.0);*/
   /*color: rgba(247, 247, 247, 1.0);*/
+}
+
+.navfont {
+  margin-top: 100px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -289,14 +340,15 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
   text-transform: uppercase;
-  /*font-family: Menlo;*/
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  font-size: 18px;
   letter-spacing: 1px;
   /*color: #0F1937;*/
   /*color: rgba(255, 255, 255, 0.5);*/
   /*color: rgb(245, 185, 85);*/
   color: #21ce99;
+  color: black;
   /*color: rgb(85, 150, 130);*/
   /*color: rgb(70, 150, 150);*/
 }
@@ -304,7 +356,8 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
   outline: 0;
-  color: black;
+  /*color: black;*/
+  color: rgb(245, 185, 85);
   /*border-bottom: 3px solid #000;*/
   /*border-bottom: 3px solid #21ce99;*/
   /*text-decoration: underline;*/
@@ -335,7 +388,7 @@ fieldset[disabled] .btn-xl.active {
     /*background-color: white;*/
     /*background-color: transparent;*/
     /*background-color: rgba(240, 230, 200, 0.5);*/
-    background-color: rgba(247, 247, 247, 0.5);
+    background-color: rgba(255, 255, 255, 0.75);
     /*background-color: rgba(255, 255, 255, 0.5);*/
     -webkit-transition: padding .3s;
     -moz-transition: padding .3s;
@@ -371,7 +424,6 @@ header {
   background-attachment: scroll;
   /*margin-top: 160px;*/
   padding-top: 160px;
-  background-image: url(../img/landingimage.JPG);
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
@@ -382,12 +434,12 @@ header {
 
 #schoolimage {
   height: auto;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  /*max-width: 1115px;*/
+  /*margin-left: 1.35%;*/
+  /*margin-right: auto;*/
   max-height: 750px;
-  margin-top: -20px;
-  /*margin-bottom: 50px;*/
+  margin-bottom: -30px;
 }
 
 #activenow {
@@ -460,49 +512,66 @@ section {
 }
 
 section h2.section-heading {
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #21ce99;
+  color: black;
+  /*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
   /*font-family: Menlo;*/
   /*font-style: normal;*/
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 15px;
-  color: rgb(70, 150, 150);
+  /*color: rgb(70, 150, 150);*/
+  color: #FFB02C;
   /*background-color: rgba(70, 150, 150, 0.5);*/
   font-size: 40px;
+  text-transform: uppercase;
+
 }
 
 section h3.section-subheading {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 1px;
   margin-bottom: 75px;
-  text-transform: none;
-  /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 23px;
-  /*font-style: italic;*/
-  /*    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;*/
-  /*font-weight: 300;*/
+  font-family: 'Open Sans', sans-serif;
+  color: black;
 }
 
 #textrow {
   margin-top: 50px;
 }
 
+
+#landing {
+  margin-top: 7.5%;
+}
+
+
 @media(min-width:768px) {
   section {
-    padding: 150px 0;
+    padding: 0px 0;
   }
 }
 
 .service-heading {
+
   margin: 15px 0;
   text-transform: none;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*background-color: rgba(70, 150, 150, 0.5);*/
+    text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  /*color: #586e75;*/
-  /*background-color: rgba(240, 230, 200, 0.5);*/
-  background-color: rgba(70, 150, 150, 0.5);
-  /*color: rgba(250, 255, 170, 1.0);*/
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #21ce99;
+  color: black;
 }
 
 #portfolio .portfolio-item {
@@ -870,11 +939,44 @@ footer {
 
 footer span.copyright {
   /*color: rgba(240, 230, 200, 0.5);*/
-  text-transform: uppercase;
-  text-transform: none;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: black;
   line-height: 40px;
 }
+
+
+#termsofuse {
+  /*color: rgba(240, 230, 200, 0.5);*/
+    text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: black;
+  margin-left: 245px;
+  line-height: 40px;
+}
+
+#copyrightnohover {
+  /*color: rgba(240, 230, 200, 0.5);*/
+    text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: black;
+  line-height: 40px;
+}
+
+
+#copyright:hover {
+  color: rgba(240, 230, 200, 1.0);
+}
+
 
 footer ul.quicklinks {
   margin-bottom: 0;
@@ -916,8 +1018,9 @@ ul.social-buttons li a {
   outline: 0;
   color: #fff;
   /*background-color: rgba(240, 230, 200, 1.0);;*/
-  background-color: rgb(70, 150, 150);
-  /*background-color: #21ce99;;*/
+  /*background-color: rgb(70, 150, 150);*/
+
+  background-color: #FFB02C;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
@@ -1030,6 +1133,15 @@ img::selection {
 
 img::-moz-selection {
   background: 0 0;
+}
+
+#shiftbrand {
+  margin-left: -30px;
+}
+
+#shiftright {
+  margin-right: -15px;
+  margin-left: 15px;
 }
 
 body {
