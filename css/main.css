@@ -1,13 +1,18 @@
 /*
  * main.css
  *
- * Author: Charles Li
+ * @lidatong
  *
- * License: MIT
+ * - Retheme on Feb 14
  *
- * Acknowledgements:
- * Based on the Agency Bootstrap Theme by David Miller (licensed under the Apache License v2.0):
- *            http://startbootstrap.com/
+ * TODO:
+ *    - refactor absolute layouts to %
+ *    - encompassing container
+ *    - delete unused code
+ *
+ * Thanks:
+ *    - start bootstrap for css samples
+ *    - uber.com, twosigma.com for design inspiration
  *
  */
 
