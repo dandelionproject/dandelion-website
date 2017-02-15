@@ -29,7 +29,7 @@
         font-size: 75px;
         font-weight: 700;*/
   color: #FFB02C;
-  text-align: left;
+  text-align: center;
   line-height: 50px;
   background-color: rgb(255, 255, 255);
   /*background: rgba(240, 240, 240, 0.5);*/
@@ -126,7 +126,6 @@ button:focus {
   font-size: 18px;
   font-weight: 300;
   text-align: center;
-
 }
 
 .text-primary {
@@ -295,9 +294,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default {
-  border-color: transparent;
-  /*background-color: #fff;*/
-  /*background-color: #000;*/
+  border-color: white;
 }
 
 .navbar-nav {
@@ -398,7 +395,7 @@ fieldset[disabled] .btn-xl.active {
     /*background-color: white;*/
     /*background-color: transparent;*/
     /*background-color: rgba(240, 230, 200, 0.5);*/
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: lightblue;
     /*background-color: rgba(255, 255, 255, 0.5);*/
     -webkit-transition: padding .3s;
     -moz-transition: padding .3s;
