@@ -1165,3 +1165,7 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(240, 230, 200, 1.0);
 }
+
+#align-left{
+  text-align: left;
+}
