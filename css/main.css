@@ -49,7 +49,7 @@
 
 .greybg {
   margin-top: 0;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 50px;
   background: rgba(232, 232, 232, 0.5);
 }
@@ -395,12 +395,13 @@ fieldset[disabled] .btn-xl.active {
     /*background-color: white;*/
     /*background-color: transparent;*/
     /*background-color: rgba(240, 230, 200, 0.5);*/
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 1);
     /*background-color: rgba(255, 255, 255, 0.5);*/
     -webkit-transition: padding .3s;
     -moz-transition: padding .3s;
     transition: padding .3s;
     /*background-color: #000;*/
+    border-bottom: 1px solid #FFB02C;
   }
   .navbar-default .navbar-brand {
     font-size: 2em;
@@ -547,6 +548,17 @@ section h3.section-subheading {
   font-size: 20px;
   letter-spacing: 1px;
   margin-bottom: 75px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+
+section h3.section-subheadmarg {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
   font-family: 'Open Sans', sans-serif;
   color: black;
 }
@@ -1165,4 +1177,14 @@ body {
 
 #align-left{
   text-align: left;
+}
+
+.profile-box {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding: 18px;
+    margin-top: 10px;
+    background: rgba(0,0,0,0.1);
+    height: 10vw;
 }
